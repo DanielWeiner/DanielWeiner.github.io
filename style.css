@@ -30,6 +30,8 @@ section h2 {
   padding-left: 24px;
   background-color: #4CAF50;
   color: #FAFAFA;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 section .content-block {
   padding: 24px;

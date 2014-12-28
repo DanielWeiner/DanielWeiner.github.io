@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+body {
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+section {
+  width: 90%;
+  width: calc(100% - 24px);
+  margin: 12px auto;
+  box-shadow: 0px 1px 4.5px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+section h2 {
+  font-weight: 400;
+  height: 48px;
+  line-height: 48px;
+  padding-left: 24px;
+  background-color: #4CAF50;
+  color: #FAFAFA;
+}
+section .content-block {
+  padding: 24px;
+}
+
+#skills dt, #skills dd {
+  line-height: 36px;
+  padding-left: 24px;
+}
+#skills dt {
+  font-weight: 400;
+  line-height: 48px;
+  border-top: 1px solid #EEE;
+  font-size: 1.125em;
+}
+
+#work-history ol {
+  padding: 0;
+}
+#work-history ol > li {
+  border-top: 1px solid #eee;
+}
+#work-history ol .location {
+  font-weight: 400;
+}
+#work-history ol .time-period {
+  font-style: italic;
+  padding-left: 24px;
+}
+#work-history ol ul li {
+  font-weight: 300;
+  font-style: italic;
+}
+
+li {
+  line-height: 36px;
+  padding-left: 24px;
+}
+
+.photo {
+  width: 400px;
+  height: 400px;
+  max-width: 90vw;
+  max-height: 90vw;
+  background-image: url(https://googledrive.com/host/0B8xf-F3Bry5ocVV5NXpVNEZ4ZE0);
+  background-size: 100%;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}

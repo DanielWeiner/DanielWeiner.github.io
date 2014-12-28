@@ -39,6 +39,9 @@ section .content-block {
   line-height: 36px;
   padding-left: 24px;
 }
+#skills dt:first-child {
+  border: none;
+}
 #skills dt {
   font-weight: 400;
   line-height: 48px;
